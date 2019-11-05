@@ -1,0 +1,163 @@
+#container {
+	padding: 60px;
+	margin: auto;
+	background: url('../images/1.jpg');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+
+body{
+	font-size: 14px;
+}
+
+#subContainer {
+	border: 2px solid #fff;
+	margin: auto;
+	position: relative;
+	padding: 25px;
+	text-align: center;
+	letter-spacing: 4px;
+	word-break: break-all;
+}
+
+.nav-link{
+	color: #fff;
+	text-align: center;
+}
+
+.nav-link:hover{
+	color: #fff;
+}
+
+#vivanus{
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+
+#link{
+	padding: 5px;
+	background: red;
+	color: #fff;
+	position: absolute;
+	right: -20px;
+}
+
+#link a, #link2 a{
+	position: relative;
+	padding: 5px;
+	left: 0;
+	right: 0;
+	color: #fff;
+	/*background: purple;*/
+	font-size: 20px
+}
+
+#link a:hover, #link2 a:hover{
+	color: orange;
+}
+
+#link2{
+	padding: 5px;
+	background: red;
+	color: #fff;
+	position: absolute;
+	left: -20px;
+}
+
+#subSubContainer{
+	position: relative;
+	bottom: -45px;
+}
+
+#sideImg{
+	background: url('../images/4.jpg');
+	background-position: center;
+	height: 300px;
+	background-size: cover;
+}
+
+#sideBar{
+	background: #eee;
+	padding: 20px;
+}
+
+.navbar-toggler{
+	border: 1px solid #fff;
+}
+
+#fafa{
+	background: #fff;
+	border-radius: 50%;
+	padding: 10px 15px 10px 15px;
+	color: orangered;
+	font-size: 25px
+}
+
+@media(min-width: 150px) and (max-width: 650px){
+	#btnBar{
+		margin: auto;
+	}
+
+	#subContainer{
+		/*width: 100%;*/
+	}
+}
+
+@media(min-width: 150px) and (max-width: 576px){
+	#o1{
+		position: absolute;
+		margin-left: 100px;
+	}
+
+	#o2{
+		position: absolute;
+		margin-right: 100px;
+	}
+}
+
+@media(min-width: 577px) and (max-width: 768px){
+	#o1, #o2{
+		width: 150%;
+	}
+}
+
+#o1{
+	padding: 15px;
+	background: #eee;
+	border-bottom: 2px solid orangered;
+	position: relative;
+	left: -100px;
+	top: 20px;
+	z-index: 2;
+	word-break: break-all;
+}
+
+#o2{
+	padding: 15px;
+	background: #eee;
+	border-bottom: 2px solid green;
+	position: relative;
+	right: -100px;
+	top: 20px;
+	z-index: 2;
+	word-break: break-all;
+}
+
+#btn{
+	background: #fff;
+	color: black;
+	font-weight: bold;
+	border-radius: 0px;
+}
+
+#title{
+	font-family: Magneto;
+	font-size: 40px;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+}
